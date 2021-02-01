@@ -4,8 +4,10 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 platform :ios, '10.0'
 
 target 'IDNowBN' do
-  config = use_native_modules!
+    pod 'OpenCV2', '~> 3.4.1'
+    pod 'Sentry', :git => 'https://github.com/getsentry/sentry-cocoa.git', :tag => '4.1.0'
 
+  config = use_native_modules!
   use_react_native!(:path => config["reactNativePath"])
 
   target 'IDNowBNTests' do

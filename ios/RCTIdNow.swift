@@ -3,7 +3,6 @@
 //  IDNowBN
 //
 //  Created by Oyvind Habberstad on 01/02/2021.
-//
 
 import IDNowSDKCore
 

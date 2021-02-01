@@ -16,15 +16,13 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* IDNowBNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* IDNowBNTests.m */; };
 		4E0B54837522E679AF5648AB /* libPods-IDNowBN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7535DFE36BDDE47F331B17F0 /* libPods-IDNowBN.a */; };
+		6691DEA1F65C286AC8BCA0E4 /* libPods-IDNowBN-IDNowBNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2554D8B17915AC293C6C9EBF /* libPods-IDNowBN-IDNowBNTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8B02EE9A25C86901008B891D /* IDNowSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02EE9225C868EB008B891D /* IDNowSDKCore.framework */; };
 		8B02EE9B25C86901008B891D /* IDNowSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02EE9225C868EB008B891D /* IDNowSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8B02EE9D25C86903008B891D /* ZoomAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02EE9825C868FE008B891D /* ZoomAuthentication.framework */; };
 		8B02EE9E25C86903008B891D /* ZoomAuthentication.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02EE9825C868FE008B891D /* ZoomAuthentication.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8B02EF2725C8AA06008B891D /* RCTIdNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B02EF2625C8AA06008B891D /* RCTIdNow.swift */; };
-		D479833303458AE9C90918B1 /* libPods-IDNowBN-IDNowBNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 310855F7167EB2D34ECE923D /* libPods-IDNowBN-IDNowBNTests.a */; };
-		FC36A36A0B923BA99FC67BBB /* libPods-IDNowBN-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E71408033E85868F350ED2 /* libPods-IDNowBN-tvOSTests.a */; };
-		FCAD0CD2BA30B4D22C6D9222 /* libPods-IDNowBN-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D61CFB729498E0605B69ED /* libPods-IDNowBN-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,24 +68,18 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = IDNowBN/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = IDNowBN/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = IDNowBN/main.m; sourceTree = "<group>"; };
+		2554D8B17915AC293C6C9EBF /* libPods-IDNowBN-IDNowBNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IDNowBN-IDNowBNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* IDNowBN-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDNowBN-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* IDNowBN-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDNowBN-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		310855F7167EB2D34ECE923D /* libPods-IDNowBN-IDNowBNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IDNowBN-IDNowBNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		40E71408033E85868F350ED2 /* libPods-IDNowBN-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IDNowBN-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C98B037C59B4D1B422CA11D /* Pods-IDNowBN-IDNowBNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN-IDNowBNTests.release.xcconfig"; path = "Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests.release.xcconfig"; sourceTree = "<group>"; };
-		6160A2475472979AF8135798 /* Pods-IDNowBN-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-IDNowBN-tvOSTests/Pods-IDNowBN-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7535DFE36BDDE47F331B17F0 /* libPods-IDNowBN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IDNowBN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C481CBF2A67D278D279BCF9 /* Pods-IDNowBN-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-IDNowBN-tvOSTests/Pods-IDNowBN-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = IDNowBN/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		81FB356D675732FE690D6444 /* Pods-IDNowBN-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-IDNowBN-tvOS/Pods-IDNowBN-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		87B26B71D33C52B2A48742DF /* Pods-IDNowBN-IDNowBNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN-IDNowBNTests.debug.xcconfig"; path = "Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B02EE9225C868EB008B891D /* IDNowSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDNowSDKCore.framework; sourceTree = "<group>"; };
 		8B02EE9825C868FE008B891D /* ZoomAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZoomAuthentication.framework; sourceTree = "<group>"; };
 		8B02EF2525C8AA06008B891D /* IDNowBN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDNowBN-Bridging-Header.h"; sourceTree = "<group>"; };
 		8B02EF2625C8AA06008B891D /* RCTIdNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCTIdNow.swift; sourceTree = "<group>"; };
-		93D61CFB729498E0605B69ED /* libPods-IDNowBN-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IDNowBN-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD56BA8B3AFE9029DA73FED5 /* Pods-IDNowBN-IDNowBNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN-IDNowBNTests.release.xcconfig"; path = "Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8617902985F307AC3CC7625 /* Pods-IDNowBN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN.release.xcconfig"; path = "Target Support Files/Pods-IDNowBN/Pods-IDNowBN.release.xcconfig"; sourceTree = "<group>"; };
-		D5EFF9DB2A7AF0C243ED4CFF /* Pods-IDNowBN-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN-tvOS.release.xcconfig"; path = "Target Support Files/Pods-IDNowBN-tvOS/Pods-IDNowBN-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		DE754AFE0C3DD0DF5D3B3AF8 /* Pods-IDNowBN-IDNowBNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN-IDNowBNTests.debug.xcconfig"; path = "Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F1D70C59A978FA8D14F73444 /* Pods-IDNowBN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN.debug.xcconfig"; path = "Target Support Files/Pods-IDNowBN/Pods-IDNowBN.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D479833303458AE9C90918B1 /* libPods-IDNowBN-IDNowBNTests.a in Frameworks */,
+				6691DEA1F65C286AC8BCA0E4 /* libPods-IDNowBN-IDNowBNTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +108,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCAD0CD2BA30B4D22C6D9222 /* libPods-IDNowBN-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +115,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC36A36A0B923BA99FC67BBB /* libPods-IDNowBN-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,9 +160,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				7535DFE36BDDE47F331B17F0 /* libPods-IDNowBN.a */,
-				310855F7167EB2D34ECE923D /* libPods-IDNowBN-IDNowBNTests.a */,
-				93D61CFB729498E0605B69ED /* libPods-IDNowBN-tvOS.a */,
-				40E71408033E85868F350ED2 /* libPods-IDNowBN-tvOSTests.a */,
+				2554D8B17915AC293C6C9EBF /* libPods-IDNowBN-IDNowBNTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -217,12 +205,8 @@
 			children = (
 				F1D70C59A978FA8D14F73444 /* Pods-IDNowBN.debug.xcconfig */,
 				C8617902985F307AC3CC7625 /* Pods-IDNowBN.release.xcconfig */,
-				87B26B71D33C52B2A48742DF /* Pods-IDNowBN-IDNowBNTests.debug.xcconfig */,
-				5C98B037C59B4D1B422CA11D /* Pods-IDNowBN-IDNowBNTests.release.xcconfig */,
-				81FB356D675732FE690D6444 /* Pods-IDNowBN-tvOS.debug.xcconfig */,
-				D5EFF9DB2A7AF0C243ED4CFF /* Pods-IDNowBN-tvOS.release.xcconfig */,
-				6160A2475472979AF8135798 /* Pods-IDNowBN-tvOSTests.debug.xcconfig */,
-				7C481CBF2A67D278D279BCF9 /* Pods-IDNowBN-tvOSTests.release.xcconfig */,
+				DE754AFE0C3DD0DF5D3B3AF8 /* Pods-IDNowBN-IDNowBNTests.debug.xcconfig */,
+				AD56BA8B3AFE9029DA73FED5 /* Pods-IDNowBN-IDNowBNTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -234,11 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "IDNowBNTests" */;
 			buildPhases = (
-				DE42EB8B1A200AE9473FE52D /* [CP] Check Pods Manifest.lock */,
+				D87BB4DFCD167A4B96C1AB0E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				DA946BFFC9B606A3CE19DAA0 /* [CP] Copy Pods Resources */,
+				36A24DAE43684DDFD829159E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -276,7 +260,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "IDNowBN-tvOS" */;
 			buildPhases = (
-				C7594EDAE7C47C8BD9D5D963 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -296,7 +279,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "IDNowBN-tvOSTests" */;
 			buildPhases = (
-				E84EC1045E0E4B4310AFBCE7 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -422,6 +404,24 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		36A24DAE43684DDFD829159E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9D8CADE47A9FF3239E1F1721 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,47 +462,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDNowBN/Pods-IDNowBN-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C7594EDAE7C47C8BD9D5D963 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IDNowBN-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DA946BFFC9B606A3CE19DAA0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DE42EB8B1A200AE9473FE52D /* [CP] Check Pods Manifest.lock */ = {
+		D87BB4DFCD167A4B96C1AB0E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -518,28 +478,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-IDNowBN-IDNowBNTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E84EC1045E0E4B4310AFBCE7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IDNowBN-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -640,7 +578,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87B26B71D33C52B2A48742DF /* Pods-IDNowBN-IDNowBNTests.debug.xcconfig */;
+			baseConfigurationReference = DE754AFE0C3DD0DF5D3B3AF8 /* Pods-IDNowBN-IDNowBNTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -664,7 +602,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C98B037C59B4D1B422CA11D /* Pods-IDNowBN-IDNowBNTests.release.xcconfig */;
+			baseConfigurationReference = AD56BA8B3AFE9029DA73FED5 /* Pods-IDNowBN-IDNowBNTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -743,7 +681,6 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81FB356D675732FE690D6444 /* Pods-IDNowBN-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -771,7 +708,6 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5EFF9DB2A7AF0C243ED4CFF /* Pods-IDNowBN-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -799,7 +735,6 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6160A2475472979AF8135798 /* Pods-IDNowBN-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -826,7 +761,6 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C481CBF2A67D278D279BCF9 /* Pods-IDNowBN-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
