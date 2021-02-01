@@ -11,6 +11,10 @@ target 'IDNowBN' do
   target 'IDNowBNTests' do
     inherit! :complete
     # Pods for testing
+
+    pod 'OpenCV2', '~> 3.4.1'
+    pod 'Sentry', :git => 'https://github.com/getsentry/sentry-cocoa.git', :tag => '4.1.0'
+
   end
 
   # Enables Flipper.
@@ -20,14 +24,5 @@ target 'IDNowBN' do
   use_flipper!
   post_install do |installer|
     flipper_post_install(installer)
-  end
-end
-
-target 'IDNowBN-tvOS' do
-  # Pods for IDNowBN-tvOS
-
-  target 'IDNowBN-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
   end
 end

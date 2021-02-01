@@ -17,6 +17,11 @@
 		2DCD954D1E0B4F2C00145EB5 /* IDNowBNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* IDNowBNTests.m */; };
 		4E0B54837522E679AF5648AB /* libPods-IDNowBN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7535DFE36BDDE47F331B17F0 /* libPods-IDNowBN.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8B02EE9A25C86901008B891D /* IDNowSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02EE9225C868EB008B891D /* IDNowSDKCore.framework */; };
+		8B02EE9B25C86901008B891D /* IDNowSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02EE9225C868EB008B891D /* IDNowSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B02EE9D25C86903008B891D /* ZoomAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02EE9825C868FE008B891D /* ZoomAuthentication.framework */; };
+		8B02EE9E25C86903008B891D /* ZoomAuthentication.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02EE9825C868FE008B891D /* ZoomAuthentication.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B02EF2725C8AA06008B891D /* RCTIdNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B02EF2625C8AA06008B891D /* RCTIdNow.swift */; };
 		D479833303458AE9C90918B1 /* libPods-IDNowBN-IDNowBNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 310855F7167EB2D34ECE923D /* libPods-IDNowBN-IDNowBNTests.a */; };
 		FC36A36A0B923BA99FC67BBB /* libPods-IDNowBN-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E71408033E85868F350ED2 /* libPods-IDNowBN-tvOSTests.a */; };
 		FCAD0CD2BA30B4D22C6D9222 /* libPods-IDNowBN-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D61CFB729498E0605B69ED /* libPods-IDNowBN-tvOS.a */; };
@@ -38,6 +43,21 @@
 			remoteInfo = "IDNowBN-tvOS";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B02EE9C25C86901008B891D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8B02EE9B25C86901008B891D /* IDNowSDKCore.framework in Embed Frameworks */,
+				8B02EE9E25C86903008B891D /* ZoomAuthentication.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
@@ -61,6 +81,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = IDNowBN/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81FB356D675732FE690D6444 /* Pods-IDNowBN-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-IDNowBN-tvOS/Pods-IDNowBN-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		87B26B71D33C52B2A48742DF /* Pods-IDNowBN-IDNowBNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN-IDNowBNTests.debug.xcconfig"; path = "Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B02EE9225C868EB008B891D /* IDNowSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDNowSDKCore.framework; sourceTree = "<group>"; };
+		8B02EE9825C868FE008B891D /* ZoomAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZoomAuthentication.framework; sourceTree = "<group>"; };
+		8B02EF2525C8AA06008B891D /* IDNowBN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDNowBN-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B02EF2625C8AA06008B891D /* RCTIdNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCTIdNow.swift; sourceTree = "<group>"; };
 		93D61CFB729498E0605B69ED /* libPods-IDNowBN-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IDNowBN-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8617902985F307AC3CC7625 /* Pods-IDNowBN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN.release.xcconfig"; path = "Target Support Files/Pods-IDNowBN/Pods-IDNowBN.release.xcconfig"; sourceTree = "<group>"; };
 		D5EFF9DB2A7AF0C243ED4CFF /* Pods-IDNowBN-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN-tvOS.release.xcconfig"; path = "Target Support Files/Pods-IDNowBN-tvOS/Pods-IDNowBN-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,7 +106,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B02EE9D25C86903008B891D /* ZoomAuthentication.framework in Frameworks */,
 				4E0B54837522E679AF5648AB /* libPods-IDNowBN.a in Frameworks */,
+				8B02EE9A25C86901008B891D /* IDNowSDKCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +158,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				8B02EF2625C8AA06008B891D /* RCTIdNow.swift */,
+				8B02EF2525C8AA06008B891D /* IDNowBN-Bridging-Header.h */,
 			);
 			name = IDNowBN;
 			sourceTree = "<group>";
@@ -159,6 +187,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				8B02EE9225C868EB008B891D /* IDNowSDKCore.framework */,
+				8B02EE9825C868FE008B891D /* ZoomAuthentication.framework */,
 				13B07FAE1A68108700A75B9A /* IDNowBN */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* IDNowBNTests */,
@@ -194,7 +224,6 @@
 				6160A2475472979AF8135798 /* Pods-IDNowBN-tvOSTests.debug.xcconfig */,
 				7C481CBF2A67D278D279BCF9 /* Pods-IDNowBN-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -232,6 +261,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				BA45D0EE67DE2FEE9FF84EE9 /* [CP] Copy Pods Resources */,
+				8B02EE9C25C86901008B891D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,7 +324,8 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						DevelopmentTeam = RLU3WX3898;
+						LastSwiftMigration = 1240;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -569,6 +600,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				8B02EF2725C8AA06008B891D /* RCTIdNow.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -610,6 +642,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87B26B71D33C52B2A48742DF /* Pods-IDNowBN-IDNowBNTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -633,6 +666,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C98B037C59B4D1B422CA11D /* Pods-IDNowBN-IDNowBNTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = IDNowBNTests/Info.plist;
@@ -656,7 +690,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLU3WX3898;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = IDNowBN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -666,8 +705,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = IDNowBN;
+				SWIFT_OBJC_BRIDGING_HEADER = "IDNowBN-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				VALIDATE_WORKSPACE = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -679,6 +720,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLU3WX3898;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = IDNowBN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -688,7 +734,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = IDNowBN;
+				SWIFT_OBJC_BRIDGING_HEADER = "IDNowBN-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				VALIDATE_WORKSPACE = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
