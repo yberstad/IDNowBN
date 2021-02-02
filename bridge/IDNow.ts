@@ -1,10 +1,10 @@
-import { NativeModules } from "react-native";
+import {NativeModules} from 'react-native';
 
-const IDNowBridge = (NativeModules as any).IDNowBridge;
+const IDNowManager = (NativeModules as any).IDNowManager;
 
 class IDNow {
   static start(identId: string) {
-    return IDNowBridge.start(identId) as Promise<string>;
+    return IDNowManager.start(identId) as Promise<string>;
   }
 }
 

@@ -14,7 +14,7 @@ export default class App extends Component<Props> {
           title="Start identification"
           onPress={async () => {
             try {
-              const resp = await IDNow.start('TST-DJCER');
+              const resp = await IDNow.start('ZWK-ZSHML');
               console.warn('==== resp', resp);
             } catch (e) {
               console.warn('==== e', e);

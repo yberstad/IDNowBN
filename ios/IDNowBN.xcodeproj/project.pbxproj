@@ -15,14 +15,15 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* IDNowBNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* IDNowBNTests.m */; };
-		4E0B54837522E679AF5648AB /* libPods-IDNowBN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7535DFE36BDDE47F331B17F0 /* libPods-IDNowBN.a */; };
-		6691DEA1F65C286AC8BCA0E4 /* libPods-IDNowBN-IDNowBNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2554D8B17915AC293C6C9EBF /* libPods-IDNowBN-IDNowBNTests.a */; };
+		554FF6A67FD20AC5B7F9987F /* Pods_IDNowBN_IDNowBNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1178EDEB9292F6B3F7BDBB24 /* Pods_IDNowBN_IDNowBNTests.framework */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8B02EE9A25C86901008B891D /* IDNowSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02EE9225C868EB008B891D /* IDNowSDKCore.framework */; };
 		8B02EE9B25C86901008B891D /* IDNowSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02EE9225C868EB008B891D /* IDNowSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8B02EE9D25C86903008B891D /* ZoomAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02EE9825C868FE008B891D /* ZoomAuthentication.framework */; };
 		8B02EE9E25C86903008B891D /* ZoomAuthentication.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02EE9825C868FE008B891D /* ZoomAuthentication.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8B02EF2725C8AA06008B891D /* RCTIdNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B02EF2625C8AA06008B891D /* RCTIdNow.swift */; };
+		8B3B06F025C96D2000EEB698 /* RNIdNow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B06EF25C96D2000EEB698 /* RNIdNow.m */; };
+		8B3B06F225C96F1600EEB698 /* IDNowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B06F125C96F1600EEB698 /* IDNowManager.swift */; };
+		D4A03C666E1BC5CEFAA1992C /* Pods_IDNowBN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48F980D506E1ECC624F20D6 /* Pods_IDNowBN.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,21 +63,22 @@
 		00E356EE1AD99517003FC87E /* IDNowBNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDNowBNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* IDNowBNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDNowBNTests.m; sourceTree = "<group>"; };
+		1178EDEB9292F6B3F7BDBB24 /* Pods_IDNowBN_IDNowBNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDNowBN_IDNowBNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* IDNowBN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDNowBN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = IDNowBN/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = IDNowBN/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = IDNowBN/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = IDNowBN/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = IDNowBN/main.m; sourceTree = "<group>"; };
-		2554D8B17915AC293C6C9EBF /* libPods-IDNowBN-IDNowBNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IDNowBN-IDNowBNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* IDNowBN-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDNowBN-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* IDNowBN-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDNowBN-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7535DFE36BDDE47F331B17F0 /* libPods-IDNowBN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IDNowBN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = IDNowBN/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B02EE9225C868EB008B891D /* IDNowSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDNowSDKCore.framework; sourceTree = "<group>"; };
 		8B02EE9825C868FE008B891D /* ZoomAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZoomAuthentication.framework; sourceTree = "<group>"; };
 		8B02EF2525C8AA06008B891D /* IDNowBN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDNowBN-Bridging-Header.h"; sourceTree = "<group>"; };
-		8B02EF2625C8AA06008B891D /* RCTIdNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCTIdNow.swift; sourceTree = "<group>"; };
+		8B3B06EF25C96D2000EEB698 /* RNIdNow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNIdNow.m; sourceTree = "<group>"; };
+		8B3B06F125C96F1600EEB698 /* IDNowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDNowManager.swift; sourceTree = "<group>"; };
+		A48F980D506E1ECC624F20D6 /* Pods_IDNowBN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDNowBN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD56BA8B3AFE9029DA73FED5 /* Pods-IDNowBN-IDNowBNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN-IDNowBNTests.release.xcconfig"; path = "Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8617902985F307AC3CC7625 /* Pods-IDNowBN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN.release.xcconfig"; path = "Target Support Files/Pods-IDNowBN/Pods-IDNowBN.release.xcconfig"; sourceTree = "<group>"; };
 		DE754AFE0C3DD0DF5D3B3AF8 /* Pods-IDNowBN-IDNowBNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDNowBN-IDNowBNTests.debug.xcconfig"; path = "Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6691DEA1F65C286AC8BCA0E4 /* libPods-IDNowBN-IDNowBNTests.a in Frameworks */,
+				554FF6A67FD20AC5B7F9987F /* Pods_IDNowBN_IDNowBNTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,8 +101,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B02EE9D25C86903008B891D /* ZoomAuthentication.framework in Frameworks */,
-				4E0B54837522E679AF5648AB /* libPods-IDNowBN.a in Frameworks */,
 				8B02EE9A25C86901008B891D /* IDNowSDKCore.framework in Frameworks */,
+				D4A03C666E1BC5CEFAA1992C /* Pods_IDNowBN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,8 +150,9 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				8B02EF2625C8AA06008B891D /* RCTIdNow.swift */,
 				8B02EF2525C8AA06008B891D /* IDNowBN-Bridging-Header.h */,
+				8B3B06EF25C96D2000EEB698 /* RNIdNow.m */,
+				8B3B06F125C96F1600EEB698 /* IDNowManager.swift */,
 			);
 			name = IDNowBN;
 			sourceTree = "<group>";
@@ -159,8 +162,8 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				7535DFE36BDDE47F331B17F0 /* libPods-IDNowBN.a */,
-				2554D8B17915AC293C6C9EBF /* libPods-IDNowBN-IDNowBNTests.a */,
+				A48F980D506E1ECC624F20D6 /* Pods_IDNowBN.framework */,
+				1178EDEB9292F6B3F7BDBB24 /* Pods_IDNowBN_IDNowBNTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -222,7 +225,7 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				36A24DAE43684DDFD829159E /* [CP] Copy Pods Resources */,
+				A19B612CD44AED1C2AF7155A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,8 +247,8 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				BA45D0EE67DE2FEE9FF84EE9 /* [CP] Copy Pods Resources */,
 				8B02EE9C25C86901008B891D /* Embed Frameworks */,
+				8F1E9A4AA9F718A6FCB81931 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -404,22 +407,72 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		36A24DAE43684DDFD829159E /* [CP] Copy Pods Resources */ = {
+		8F1E9A4AA9F718A6FCB81931 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-IDNowBN/Pods-IDNowBN-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireLogger/AlamofireLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDNowBN/Pods-IDNowBN-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9D8CADE47A9FF3239E1F1721 /* [CP] Check Pods Manifest.lock */ = {
@@ -444,22 +497,72 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BA45D0EE67DE2FEE9FF84EE9 /* [CP] Copy Pods Resources */ = {
+		A19B612CD44AED1C2AF7155A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IDNowBN/Pods-IDNowBN-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireLogger/AlamofireLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDNowBN/Pods-IDNowBN-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDNowBN-IDNowBNTests/Pods-IDNowBN-IDNowBNTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D87BB4DFCD167A4B96C1AB0E /* [CP] Check Pods Manifest.lock */ = {
@@ -538,8 +641,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				8B02EF2725C8AA06008B891D /* RCTIdNow.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				8B3B06F225C96F1600EEB698 /* IDNowManager.swift in Sources */,
+				8B3B06F025C96D2000EEB698 /* RNIdNow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

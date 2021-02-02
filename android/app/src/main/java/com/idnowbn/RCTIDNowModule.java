@@ -21,7 +21,7 @@ public class RCTIDNowModule extends ReactContextBaseJavaModule implements IDnowS
 
     @Override
     public String getName() {
-        return "IDNowBridge";
+        return "IDNowManager";
     }
 
 
