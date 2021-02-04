@@ -10,6 +10,7 @@
 @interface RCT_EXTERN_MODULE(IDNowManager, NSObject)
 RCT_EXTERN_METHOD(
                   start: (NSString *)token
+                  preferredLanguage: (NSString *)preferredLanguage
                   resolve: (RCTPromiseResolveBlock)resolve
                   reject: (RCTPromiseRejectBlock)reject
                   )

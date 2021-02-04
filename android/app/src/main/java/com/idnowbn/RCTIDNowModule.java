@@ -47,10 +47,10 @@ public class RCTIDNowModule extends ReactContextBaseJavaModule implements IDnowS
 
 
     @ReactMethod
-    public void start(final String identId, final Promise promise) {
+    public void start(final String identId, final String preferredLanguage, final Promise promise) {
         try {
             idnowPromise = promise;
-            IDnowConfig iDnowConfig = IDnowConfig.Builder.getInstance().build();
+            IDnowConfig iDnowConfig = IDnowConfig.Builder.getInstance().withLanguage(preferredLanguage).build();
             idnowSdk = IDnowSDK.getInstance();
             AppCompatActivity activity = getActivity();
             idnowSdk.initialize(activity, iDnowConfig);
@@ -77,8 +77,10 @@ public class RCTIDNowModule extends ReactContextBaseJavaModule implements IDnowS
         Log.d("ReactNative", "RCTIDNowModule.onIdentResult -> getIDnowStatusCode:" +iDnowResult.getIDnowStatusCode());
         if (iDnowResult.getIDnowStatusCode() == IDnowResult.IDnowStatusCode.FINISHED) {
             Log.d(TAG, "Finished");
+            idnowPromise.resolve("Finished");
         } else if (iDnowResult.getIDnowStatusCode() == IDnowResult.IDnowStatusCode.CANCELLED) {
             Log.d(TAG, "Cancelled");
+            idnowPromise.reject("ERROR", iDnowResult.getMessage());
         } else if (iDnowResult.getIDnowStatusCode() == IDnowResult.IDnowStatusCode.ERROR) {
             Log.d(TAG, "Error: " + iDnowResult.getMessage());
             idnowPromise.reject("ERROR", iDnowResult.getMessage());

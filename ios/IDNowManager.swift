@@ -14,17 +14,22 @@ class IDNowManager : NSObject {
   private var _reject: RCTPromiseRejectBlock? = nil;
   
   @objc
-  func start(_ token: String, resolve: @escaping RCTPromiseResolveBlock, reject: @escaping RCTPromiseRejectBlock) -> Void {
-    self._resolve = resolve;
-    self._reject = reject;
+  func start(_ token: String, preferredLanguage: String, resolve: @escaping RCTPromiseResolveBlock, reject: @escaping RCTPromiseRejectBlock) -> Void {
     let rootViewController = UIApplication.shared.delegate?.window??.rootViewController
     
-    IDNowSDK.shared.start(token: token, preferredLanguage:"en", fromViewController: rootViewController!, listener:{ (result: IDNowSDK.IdentResult, message: String) in
-               if result == IDNowSDK.IdentResult.ERROR {
-                self._reject!("ERROR", message, nil);
-               } else if result == IDNowSDK.IdentResult.FINISHED {
-                self._resolve!(IDNowSDK.IdentResult.FINISHED);
-               }
-           })
+    IDNowSDK.shared.start(token: token, preferredLanguage: preferredLanguage, fromViewController: rootViewController!, listener:{ (result: IDNowSDK.IdentResult, message: String) in
+      if result == IDNowSDK.IdentResult.FINISHED {
+        resolve(String(describing:result.rawValue));
+      } else {
+        let error = NSError(domain: message, code: result.rawValue, userInfo: nil)
+        reject(String(describing:result.rawValue), message, error);
+      }
+    })
+  }
+  
+  
+  @objc
+  static func requiresMainQueueSetup() -> Bool {
+    return true
   }
 }
